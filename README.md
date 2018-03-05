@@ -1,5 +1,5 @@
 # Currículum de Carlos David Cordero
-Soy desarrollador web en PHP, CSS, Javascript con alta capacidad para resolver problemas y autodidacta.  Si no tengo en principio la solución, investigo, pruebo y modifico hasta lograr el resultado deseado.
+Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver problemas y autodidacta.  Si no tengo en principio la solución, investigo, pruebo y modifico hasta lograr el resultado deseado.
 
 ### Lenguajes de programación
 * HTML
@@ -20,9 +20,7 @@ Soy desarrollador web en PHP, CSS, Javascript con alta capacidad para resolver p
 * Bootstrap / Foundation / Materialize
 * jQuery
 * Angular
-* Vue
 * NodeJS
-* CodeIgniter
 * Laravel
 
 ### Control de versiones
@@ -30,7 +28,7 @@ Soy desarrollador web en PHP, CSS, Javascript con alta capacidad para resolver p
 
 ### Sistemas operativos
 * Windows
-* GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal CLI)
+* GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal *CLI*)
 
 ### Idiomas
 * Español (nativo)

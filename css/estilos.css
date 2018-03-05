@@ -1,5 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro");
 * { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 html { font-size: 16px; }
 
-body { font-size: 1rem; }
+body { font-size: 1rem; color: #555; font-family: "Source Sans Pro", sans-serif; }
+
+img { max-width: 100%; height: auto; }
+
+.container { max-width: 1200px; margin: 0 auto; }
+
+.row { padding: 1rem; }
+
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Abel", sans-serif; }
+
+h1 { font-size: 1.7rem; }
+
+hr { border: 0; height: 1px; background: -webkit-gradient(linear, right top, left top, from(#f0f0f0), color-stop(#ccc), to(#f0f0f0)); background: linear-gradient(to left, #f0f0f0, #ccc, #f0f0f0); }
+
+a { text-decoration: none; }
+
+.main-menu { background-color: #2861B7; text-align: center; }
+
+.main-menu a { margin-left: .3rem; margin-right: .3rem; padding: .6rem; border-radius: 50%; vertical-align: middle; }
+
+.main-menu a:hover { background-color: rgba(0, 0, 0, 0.1); }
+
+.main-menu a i:before { color: #fff; font-size: 1.3rem; vertical-align: text-top; }
+
+.main-header { background-color: #2861B7; height: 150px; }
+
+.main-header__foto { background-color: #2861B7; width: 250px; height: 250px; line-height: 0; border-radius: 50%; padding: 5px; margin: 0 auto; }
+
+.main-header__foto img { width: 240px; height: 240px; border-radius: 50%; border: 2px solid #fff; }
+
+.datos-personales__contacto ul { list-style: none; }
+
+.datos-personales__contacto ul li:before { margin-right: .5rem; vertical-align: middle; }
