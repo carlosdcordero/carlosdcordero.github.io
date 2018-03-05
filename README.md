@@ -9,13 +9,6 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 * MySQL
 * MongoDB
 
-### Editores de código
-* Atom editor
-* Sublime Text
-* Visual Studio Code
-* Adobe Brackets
-* Adobe Dreamweaver
-
 ### Frameworks / Librerías
 * Bootstrap / Foundation / Materialize
 * jQuery
@@ -25,6 +18,13 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 
 ### Control de versiones
 * Git / GitHub / Bitbucket
+
+### Editores de código
+* Atom editor
+* Sublime Text
+* Visual Studio Code
+* Adobe Brackets
+* Adobe Dreamweaver
 
 ### Sistemas operativos
 * Windows
