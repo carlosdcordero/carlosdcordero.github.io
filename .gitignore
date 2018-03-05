@@ -3,6 +3,10 @@ node_modules
 vendor
 .env
 scss
+.gitignore
+gulpfile.js
+package.json
+package-lock.json
 
 # -- Composer --
 composer.phar
