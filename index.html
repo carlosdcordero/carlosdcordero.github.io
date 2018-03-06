@@ -7,6 +7,7 @@
 	<title>Carlos David Cordero | Currículum</title>
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link href="https://file.myfontastic.com/G7H9g25H85qcCoibsKGoaf/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.min.css">
 	<link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -24,7 +25,7 @@
 	<header class="main-header">
 		<div class="container">
 			<div class="row">
-				<div class="main-header__foto">
+				<div class="main-header__foto wow fadeInDown" data-wow-delay=".2s">
 					<img src="./img/carlos-cordero.jpg" alt="Carlos David Cordero">
 				</div>
 			</div>
@@ -32,18 +33,18 @@
 	</header>
 	<section class="datos-personales container">
 		<div class="row">
-			<h1 class="datos-personales__nombre">Carlos David Cordero</h1>
-			<p class="datos-personales__profesion">
+			<h1 class="datos-personales__nombre wow fadeInLeft" data-wow-delay=".4s">Carlos David Cordero</h1>
+			<p class="datos-personales__profesion wow fadeInRight" data-wow-delay=".7s">
 				Desarrollador Web <code>{PHP, MySQL, Javascript}</code>
 			</p>
 		</div>
 	</section>
 	<section class="informacion container">
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
 			<h2>Sobre mí</h2>
 			<p>Soy desarrollador web en <code>{PHP, CSS, Javascript}</code> con alta capacidad para resolver problemas y autodidacta.  Si no tengo en principio la solución, investigo, pruebo y modifico hasta lograr el resultado deseado.</p>
 		</div>	
-		<div class="row box">
+		<div class="row box wow fadeInRight" data-wow-delay=".4s">
 			<h2>Información de contacto</h2>
 			<ul>
 				<li class="icon-whatsapp">+51 935 385 994</li>
@@ -53,11 +54,11 @@
 				<li class="icon-flag">Venezolano</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".4s">
 			<h2>Experiencia</h2>
 			<p>Desde <code>2009</code>. Diseño y Desarrollo de sitios web estáticos y dinámicos en modalidad de freelance, manejo de CMS <code>{WordPress, Joomla, PrestaShop}</code></p>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInRight" data-wow-delay=".3s">
 			<h2>Aptitudes</h2>
 			<ul>
 				<li class="icon-check">Responsabilidad</li>
@@ -67,7 +68,7 @@
 				<li class="icon-check">Trabajo en equipo</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
 			<h2>Lenguajes de programación</h2>
 			<ul>
 				<li class="icon-code">HTML</li>
@@ -78,7 +79,7 @@
 				<li class="icon-code">MongoDB</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInRight" data-wow-delay=".4s">
 			<h2>Frameworks / Librerías</h2>
 			<ul>
 				<li class="icon-code">Bootstrap / Foundation / Materialize</li>
@@ -88,20 +89,20 @@
 				<li class="icon-code">Laravel</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".4s">
 			<h2>Control de versiones</h2>
 			<ul>
 				<li class="icon-code-fork">Git / GitHub / Bitbucket</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInRight" data-wow-delay=".3s">
 			<h2>Sistemas operativos</h2>
 			<ul>
 				<li class="icon-windows">Windows</li>
 				<li class="icon-linux">GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal CLI)</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
 			<h2>Editores de código</h2>
 			<ul>
 				<li class="icon-laptop">Atom editor</li>
@@ -111,14 +112,14 @@
 				<li class="icon-laptop">Adobe Dreamweaver</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInRight" data-wow-delay=".4s">
 			<h2>Idiomas</h2>
 			<ul>
 				<li class="icon-language">Español (nativo)</li>
 				<li class="icon-language">Inglés (Básico)</li>
 			</ul>
 		</div>
-		<div class="row box">
+		<div class="row box wow fadeInLeft" data-wow-delay=".4s">
 			<h2>Cursos</h2>
 			<ul>
 				<li class="icon-book">Experto en Diseño y Programación Web con PHP y MySQL</li>
@@ -142,6 +143,11 @@
 			</div>
 		</div>
 	</footer>
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
 
