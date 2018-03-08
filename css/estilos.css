@@ -58,3 +58,9 @@ ul li:before { margin-right: .5rem; vertical-align: middle; }
 footer { background-color: #1f4b8d; font-size: .9rem; text-align: center; margin-top: 1rem; }
 
 footer a { color: #fff; }
+
+.boton-top { display: block; position: fixed; bottom: 1rem; right: 1rem; cursor: pointer; line-height: 0; font-size: 1.7rem; color: rgba(0, 0, 0, 0.4); }
+
+.boton-top:hover { color: rgba(0, 0, 0, 0.7); }
+
+.ocultar { display: none; }

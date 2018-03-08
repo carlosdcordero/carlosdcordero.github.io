@@ -31,7 +31,7 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 * GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal *CLI*)
 
 ### Idiomas
-* Español (nativo)
+* Español (Nativo)
 * Inglés (Básico)
 
 ### Redes sociales
