@@ -19,13 +19,6 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 ### Control de versiones
 * Git / GitHub / Bitbucket
 
-### Editores de código
-* Atom editor
-* Sublime Text
-* Visual Studio Code
-* Adobe Brackets
-* Adobe Dreamweaver
-
 ### Sistemas operativos
 * Windows
 * GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal *CLI*)
@@ -37,4 +30,3 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 ### Redes sociales
 [Sitio web](http://corderoweb.com)  
 [Linkedin](http://linkedin.com/in/carlosdcordero)  
-[GitHub](http://github.com/carlosdcordero)
