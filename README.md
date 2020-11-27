@@ -7,17 +7,13 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 * PHP
 * Javascript
 * MySQL
-* MongoDB
 
 ### Frameworks / Librerías
 * Bootstrap / Foundation / Materialize
-* jQuery
-* Angular
-* NodeJS
-* Laravel
+* Vue.js
 
 ### Control de versiones
-* Git / GitHub / Bitbucket
+* Git
 
 ### Sistemas operativos
 * Windows
@@ -27,6 +23,6 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 * Español (Nativo)
 * Inglés (Básico)
 
-### Redes sociales
-[Sitio web](http://corderoweb.com)  
-[Linkedin](http://linkedin.com/in/carlosdcordero)  
+### Saber más
+[Sitio web](http://corderoweb.com)
+[Linkedin](http://linkedin.com/in/carlosdcordero)

@@ -44,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 140px;
+    max-width: 165px;
     margin: 1em auto .5em;
 }
 .links a {
