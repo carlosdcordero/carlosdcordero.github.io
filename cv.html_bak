@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Carlos David Cordero | Currículum</title>
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link href="https://file.myfontastic.com/G7H9g25H85qcCoibsKGoaf/icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/animate.min.css">
+	<link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+	<nav class="main-menu">
+		<div class="container">
+			<div class="row">
+				<a href="https://wa.me/51921743895">
+					<i class="icon-whatsapp"></i>
+				</a>
+				<a href="http://linkedin.com/in/carlosdcordero">
+					<i class="icon-linkedin"></i>
+				</a>
+				<a href="mailto:carlosdcordero@gmail.com">
+					<i class="icon-mail"></i>
+				</a>
+				<a href="https://corderoweb.com/">
+					<i class="icon-globe"></i>
+				</a>
+			</div>
+		</div>
+	</nav>
+	<header class="main-header">
+		<div class="container">
+			<div class="row">
+				<div class="main-header__foto wow fadeInDown" data-wow-delay=".2s">
+					<img src="./img/carlos-cordero.jpg" alt="Carlos David Cordero">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="datos-personales container">
+		<div class="row">
+			<h1 class="datos-personales__nombre wow fadeInLeft" data-wow-delay=".4s">Carlos David Cordero</h1>
+			<p class="datos-personales__profesion wow fadeInRight" data-wow-delay=".7s">
+				Desarrollador Web <code>{PHP, MySQL, Javascript}</code>
+			</p>
+		</div>
+	</section>
+	<section class="informacion container">
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
+			<h2>Sobre mí</h2>
+			<p>Soy desarrollador web en <code>{PHP, CSS, Javascript}</code> con alta capacidad para resolver problemas y autodidacta.  Si no tengo en principio la solución, investigo, pruebo y modifico hasta lograr el resultado deseado.</p>
+		</div>	
+		<div class="row box wow fadeInRight" data-wow-delay=".3s">
+			<h2>Información de contacto</h2>
+			<ul>
+				<li class="icon-whatsapp">+51 921 743 895</li>
+				<li class="icon-mail">carlosdcordero@gmail.com</li>
+				<li class="icon-skype">carlosdcordero</li>
+				<li class="icon-map-marker">Lima - Perú</li>
+				<li class="icon-flag">Venezolano</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInLeft" data-wow-delay=".2s">
+			<h2>Experiencia</h2>
+			<p>Desde <code>2009</code>. Diseño y Desarrollo de sitios web estáticos y dinámicos en modalidad de freelance, manejo de CMS <code>{WordPress, Joomla, PrestaShop}</code></p>
+		</div>
+		<div class="row box wow fadeInRight" data-wow-delay=".3s">
+			<h2>Aptitudes</h2>
+			<ul>
+				<li class="icon-check">Responsabilidad</li>
+				<li class="icon-check">Comunicación</li>
+				<li class="icon-check">Honestidad</li>
+				<li class="icon-check">Creatividad</li>
+				<li class="icon-check">Trabajo en equipo</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
+			<h2>Lenguajes de programación</h2>
+			<ul>
+				<li class="icon-code">HTML</li>
+				<li class="icon-code">CSS / SASS</li>
+				<li class="icon-code">PHP</li>
+				<li class="icon-code">Javascript</li>
+				<li class="icon-code">MySQL</li>
+				<li class="icon-code">MongoDB</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInRight" data-wow-delay=".2s">
+			<h2>Frameworks / Librerías</h2>
+			<ul>
+				<li class="icon-code">Bootstrap / Foundation / Materialize</li>
+				<li class="icon-code">jQuery</li>
+				<!-- <li class="icon-code">Angular</li>
+				<li class="icon-code">NodeJS</li> -->
+				<li class="icon-code">CodeIgniter</li>
+				<!-- <li class="icon-code">Laravel</li> -->
+			</ul>
+		</div>
+		<div class="row box wow fadeInLeft" data-wow-delay=".2s">
+			<h2>Control de versiones</h2>
+			<ul>
+				<li class="icon-code-fork">Git / GitHub / Bitbucket</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInRight" data-wow-delay=".3s">
+			<h2>Sistemas operativos</h2>
+			<ul>
+				<li class="icon-windows">Windows</li>
+				<li class="icon-linux">GNU/Linux (Manejo a nivel de usuario con interfaz gráfica o a nivel de terminal CLI)</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInLeft" data-wow-delay=".3s">
+			<h2>Idiomas</h2>
+			<ul>
+				<li class="icon-language">Español (Nativo)</li>
+				<li class="icon-language">Inglés (Básico)</li>
+			</ul>
+		</div>
+		<div class="row box wow fadeInRight" data-wow-delay=".2s">
+			<h2>Cursos</h2>
+			<ul>
+				<li class="icon-book">Experto en Diseño y Programación Web con PHP y MySQL</li>
+				<li class="icon-book">Curso de Ecommerce</li>
+				<li class="icon-book">Curso de Marketing por Internet</li>
+				<li class="icon-book">Curso Desarrollo de Portales Ecommerce y de Contenido</li>
+				<li class="icon-book">Curso Programación Web con PHP y MySQL</li>
+				<li class="icon-book">Curso Diseño Web con HTML5 y CSS3</li>
+				<li class="icon-book">Curso Introducción al Desarrollo Web</li>
+				<li class="icon-book">Curso de Programación Orientada a Objetos</li>
+				<li class="icon-book">Curso Básico de Marketing Digital</li>
+				<li class="icon-book">Asistente Técnico en Reparación y Mantenimiento de Computadoras</li>
+				<li class="icon-graduation-cap">T.S.U. en Informática</li>
+			</ul>
+		</div>
+	</section>
+	<div id="portafolio" class="portafolio-title">
+		<div class="container">
+			<div class="row">
+				<h2>Últimos Proyectos</h2>
+			</div>
+		</div>
+	</div>
+	<section class="portafolio container">
+		<figure class="row wow fadeInLeft" data-wow-delay=".2s">
+			<img src="./img/portafolio/Maskopets.jpg" alt="Maskopets - PetShop">
+			<figcaption>
+				<h3>Maskopets - PetShop</h3>
+				Desarrollo de tienda virtual en <code>{wordpress + woocommerce}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInRight" data-wow-delay=".3s">
+			<img src="./img/portafolio/Pets-Smile.jpg" alt="Pet's Smile - PetShop">
+			<figcaption>
+				<h3>Pet's Smile - PetShop</h3>
+				Desarrollo de tienda virtual en <code>{wordpress + woocommerce}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInLeft" data-wow-delay=".2s">
+			<img src="./img/portafolio/PetCare.jpg" alt="PetCare - PetShop">
+			<figcaption>
+				<h3>PetCare - PetShop</h3>
+				Desarrollo de tienda virtual en <code>{wordpress + woocommerce}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInRight" data-wow-delay=".3s">
+			<img src="./img/portafolio/Sphaera.jpg" alt="Sphaera - eCommerce">
+			<figcaption>
+				<h3>Sphaera - eCommerce</h3>
+				Desarrollo de tienda virtual en <code>{wordpress + woocommerce}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInLeft" data-wow-delay=".2s">
+			<img src="./img/portafolio/Amor-y-Agua-Viva.jpg" alt="Amor y Agua Viva - OnePage">
+			<figcaption>
+				<h3>Amor y Agua Viva - OnePage</h3>
+				Desarrollo sitio web <code>{wordpress}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInRight" data-wow-delay=".3s">
+			<img src="./img/portafolio/111-Producciones.jpg" alt="111 Producciones - OnePage">
+			<figcaption>
+				<h3>111 Producciones - OnePage</h3>
+				Desarrollo sitio web corporativo <code>{wordpress}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInLeft" data-wow-delay=".2s">
+			<img src="./img/portafolio/Maria-Rondon.jpg" alt="María Rondón - eCommerce">
+			<figcaption>
+				<h3>María Rondón - eCommerce</h3>
+				Desarrollo de tienda virtual en <code>{wordpress + woocommerce}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+		<figure class="row wow fadeInRight" data-wow-delay=".3s">
+			<img src="./img/portafolio/Cordero-Web-Veterinarias.jpg" alt="Agencia Digital para Veterinarias - OnePage">
+			<figcaption>
+				<h3>Agencia Digital para Veterinarias - OnePage</h3>
+				Desarrollo sitio web corporativo <code>{wordpress}</code>, creación de theme desde cero con responsive design.
+			</figcaption>
+		</figure>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<a href="http://corderoweb.com">www.corderoweb.com</a>
+				<span class="boton-top icon-arrow-circle-o-up"></span>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/wow.min.js"></script>
+	<script src="./js/scripts.js"></script>
+</body>
+</html>

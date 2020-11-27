@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Abel|Source+Sans+Pro");
+* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; line-height: 1.5rem; }
+
+html { font-size: 16px; }
+
+body { font-size: 1rem; color: #555; font-family: "Source Sans Pro", sans-serif; }
+
+img { max-width: 100%; height: auto; }
+
+.container { max-width: 1100px; margin: 0 auto; }
+
+.row { padding: 1rem; }
+
+.flex { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.box, figure { width: 90%; margin: 1rem auto; border: 1px solid #ccc; -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5); }
+
+@media screen and (min-width: 768px) { .box, figure { width: calc(50% - 2.1rem); margin: 1rem; } }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Abel", sans-serif; }
+
+h1 { font-size: 1.7rem; margin: 1rem 0 .5rem 0; }
+
+h2 { font-size: 1.3rem; }
+
+h3 { font-size: 1.1rem; }
+
+hr { border: 0; height: 1px; background-color: #ccc; }
+
+a { text-decoration: none; }
+
+ul { list-style: none; }
+
+ul li:before { margin-right: .5rem; vertical-align: middle; }
+
+.main-menu { background-color: #000; text-align: center; }
+
+.main-menu a { margin-left: .3rem; margin-right: .3rem; padding: .6rem; border-radius: 50%; vertical-align: middle; }
+
+.main-menu a:hover { background-color: rgba(0, 0, 0, 0.1); }
+
+.main-menu a i:before { color: #fff; font-size: 1.3rem; vertical-align: text-top; }
+
+.main-header { background-color: #000; height: 120px; margin-bottom: 5rem; }
+
+.main-header__foto { background-color: #000; width: 200px; height: 200px; line-height: 0; border-radius: 50%; padding: 5px; margin: 0 auto; }
+
+.main-header__foto img { width: 190px; height: 190px; border-radius: 50%; border: 3px solid #fff; }
+
+.datos-personales { text-align: center; }
+
+@media screen and (min-width: 768px) { .informacion, .portafolio { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; } }
+
+.portafolio-title { background-color: #2861B7; color: #fff; text-align: center; }
+
+.portafolio figure figcaption h3 { margin: .5rem 0; }
+
+footer { background-color: #1f4b8d; font-size: .9rem; text-align: center; margin-top: 1rem; }
+
+footer a { color: #fff; }
+
+.boton-top { display: block; position: fixed; bottom: 1rem; right: 1rem; cursor: pointer; line-height: 0; font-size: 1.7rem; color: rgba(0, 0, 0, 0.4); }
+
+.boton-top:hover { color: rgba(0, 0, 0, 0.7); }
+
+.ocultar { display: none; }

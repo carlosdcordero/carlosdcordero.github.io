@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web | Desarrollo Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="menu">
+            <a href="#beneficios">Beneficios</a>
+            <a href="#testimonios">Testimonios</a>
+            <a href="#trabajos">Trabajos Recientes</a>
+        </div>
+        <div class="top-header">
+            <a href="https://corderoweb.com">corderoweb.com</a>
+            <a href="https://wa.me/51921743895"><i class="fab fa-whatsapp"></i> 921 743 895</a>
+        </div>
+        <div class="py">
+            <div class="py">
+                <span>¡Hola!</span>
+                <h1>Soy Carlos Cordero</h1>
+                <span>Fundador y Desarrollador web en <a href="https://corderoweb.com">corderoweb.com</a></span>
+            </div>
+            <div class="py">
+                <span>¡Cuentame sobre tu proyecto!</span>
+                <form id="contacto" action="#!" method="POST">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                    <input type="email" id="correo" name="correo" placeholder="Correo" required>
+                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
+                    <input type="submit" value="Cuéntame más">
+                </form>
+            </div>
+        </div>
+        <div class="social">
+            <a href="https://www.instagram.com/carlosdcordero/"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/51921743895"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</header>
+
+<section id="beneficios" class="beneficios">
+    <div class="container">
+        <h2>Beneficios de un sitio web</h2>
+        <div class="beneficios-div">
+            <div>
+                <ul>
+                    <li>Presencia en internet. Un sitio web le da prestigio a tu marca o empresa, además de añadir confianza a tus clientes.</li>
+                    <li>Puedes mostrar lo que desees a tus clientes de una forma organizada y realmente como quieres.</li>
+                </ul>
+            </div>
+            <div>
+                <img src="./img/g392.png">
+            </div>
+            <div>
+                <ul>
+                    <li>Puedes vender desde tu sitio web, gestionar tu stock, ajustar precios, quitar o agregar productos, etc. Todo esto de una manera fácil y centralizada.</li>
+                    <li>Puedes tener correos corporativos del tipo (hola@sitioweb.com).</li>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios" class="testimonios">
+    <div class="container">
+        <h2>Testimonios</h2>
+        <p>Puedes mostrar lo que desees a tus clientes de una forma organizada y realmente como quieres.</p>
+        <div class="testimonios-buttons">
+            <span id="left"><i class="fas fa-angle-left"></i></span>
+            <span id="right"><i class="fas fa-angle-right"></i></span>
+        </div>
+        <div class="testimonios-slider-container">
+            <div class="testimonios-slider"></div>
+        </div>
+    </div>
+</section>
+
+<div id="trabajos" class="container text-center">
+    <h2>Últimos Trabajos</h2>
+</div>
+
+<section class="galeria"></section>
+
+<div class="light"></div>
+
+<section class="web">
+    <div class="container text-center">
+        <h2>Creamos tu sitio web</h2>
+        <p>Dale mayor prestigio a tu negocio con nosotros</p>
+        <a href="https://wa.me/51921743895"><i class="fab fa-whatsapp"></i> 921 743 895</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container text-center">
+        <a href="https://corderoweb.com">corderoweb.com</a>
+    </div>
+</footer>
+
+<template id="template-testimonios">
+    <div class="testimonio-div">
+        <div class="testimonio-header">
+            <img src="">
+            <div>
+                <h4></h4>
+                <span></span>
+            </div>
+        </div>
+        <div class="testimonio-content">
+            <p></p>
+        </div>
+    </div>
+</template>
+
+<template id="galeria">
+    <a href="#imagen1">
+        <img src="./img/portafolio/Maskopets 3.jpg">
+    </a>
+</template>
+
+<template id="light-box">
+    <div id="imagen1" class="light-box">
+        <a href="#imagen6" class="prev"><i class="fas fa-angle-left"></i></a>
+        <img src="./img/portafolio/Maskopets 3.jpg">
+        <a href="#imagen2" class="next"><i class="fas fa-angle-right"></i></a>
+        <a href="#!" class="close"><i class="fas fa-times"></i></a>
+    </div>
+</template>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
