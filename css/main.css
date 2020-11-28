@@ -166,7 +166,7 @@ input::placeholder {
     position: absolute;
     top: 50%;
     left: -130px;
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) !important;
 }
 .menu a {
     color: #666;
@@ -414,7 +414,7 @@ input::placeholder {
         top: 60px;
         left: 0;
         width: 100%;
-        transform: rotate(0);
+        transform: rotate(0) !important;
     }
     
     .social {
