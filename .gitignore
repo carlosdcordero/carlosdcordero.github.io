@@ -5,6 +5,8 @@ gulpfile.js
 package.json
 package-lock.json
 
+cv.html_bak
+
 # -- Sistemas Operativos --
 # Windows
 Thumbs.db

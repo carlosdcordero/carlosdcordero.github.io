@@ -1,3 +1,9 @@
+function cerrarCargador() {
+    document.querySelector('.preloader').style.display = 'none';
+}
+
+new WOW().init();
+
 document.querySelector('#contacto').addEventListener('submit', enviarFormulario);
 
 function enviarFormulario(e) {
@@ -13,6 +19,9 @@ function enviarFormulario(e) {
 }
 
 function enviar(nombre, correo, telefono) {
+    
+    document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce animate__infinite"><i class="fas fa-paper-plane"></i> Enviando, por favor espera...</div>';
+
     Email.send({
         SecureToken : '9515e946-ac93-491a-aa16-6c8f4adac009',
         To : 'info@corderoweb.com',
@@ -22,8 +31,13 @@ function enviar(nombre, correo, telefono) {
                 Teléfono: ${telefono}.<br>
                 Correo: ${correo}.`
     }).then(
-      message => alert(message)
-    );
+      message => {
+          if (message == 'OK') {
+            document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce"><i class="fas fa-check-circle"></i> ¡Mensaje enviado correctamente!</div>';
+          } else {
+            document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce"><i class="fas fa-exclamation-circle"></i> Error: Debes llenar TODOS los campos.</div>';
+          }
+    });
 }
 
 
