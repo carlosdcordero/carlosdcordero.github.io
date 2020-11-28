@@ -24,5 +24,5 @@ Soy desarrollador web en *PHP, CSS, Javascript* con alta capacidad para resolver
 * Inglés (Básico)
 
 ### Saber más
-[Sitio web](http://corderoweb.com)  
+[Sitio web](https://carlosdcordero.github.io)  
 [Linkedin](http://linkedin.com/in/carlosdcordero)  
