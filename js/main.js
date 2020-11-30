@@ -1,5 +1,5 @@
-function cerrarCargador() {
-    document.querySelector('.preloader').style.display = 'none';
+window.onhashchange = function () {
+    window.history.pushState('', document.title, window.location.pathname);
 }
 
 new WOW().init();

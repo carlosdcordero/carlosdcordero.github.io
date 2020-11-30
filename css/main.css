@@ -1,38 +1,3 @@
-.preloader {
-    background-color: #000;
-    min-width: 100vw;
-    min-height: 100vh;
-    position: absolute;
-    z-index: 1000;
-    position: fixed;
-    overflow: hidden;
-}
-.preloader div {
-    width: 40px;
-    height: 40px;
-    border: 5px solid #eee;
-    border-top: 5px solid #666;
-    border-radius: 50%;
-    animation-name: girar;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-  }
-  @keyframes girar {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -253,7 +218,7 @@ input::placeholder {
 .testimonios-buttons span {
     border: 2px solid #fff;
     border-radius: 50%;
-    padding: 3px 10px;
+    padding: 3px 8px;
     cursor: pointer;
     transition: all .2s;
     margin: 0 .1em;
