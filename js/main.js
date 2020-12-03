@@ -19,7 +19,8 @@ function enviarFormulario(e) {
 }
 
 function enviar(nombre, correo, telefono) {
-    
+
+    location.href = "#form";
     document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce animate__infinite"><i class="fas fa-paper-plane"></i> Enviando, por favor espera...</div>';
 
     Email.send({
@@ -33,8 +34,10 @@ function enviar(nombre, correo, telefono) {
     }).then(
       message => {
           if (message == 'OK') {
+            location.href = "#form";
             document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce"><i class="fas fa-check-circle"></i> ¡Mensaje enviado correctamente!</div>';
           } else {
+            location.href = "#form";
             document.querySelector('.respuesta-mail').innerHTML = '<div class="animate__animated animate__bounce"><i class="fas fa-exclamation-circle"></i> Error: Debes llenar TODOS los campos.</div>';
           }
     });
@@ -61,31 +64,46 @@ let i = 1,
 testimonios = {
     1: {
         id: 1,
-        imagen: 'https://cemokalab.com/wp-content/uploads/2015/07/avatar-372-456324.png',
-        nombre: 'Testimonio 1',
-        empresa: 'Testimonios 1',
-        testimonio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident tempore quis voluptatum aut saepe laborum aperiam, perferendis ipsa autem ipsum mollitia eligendi neque ducimus accusantium dolorem id eos tempora fuga 1.'
+        imagen: '../img/testimonios/melvin-bravo.jpg',
+        nombre: 'Melvin Bravo',
+        empresa: 'Músico',
+        testimonio: 'Muchas gracias, quedo super genial, se adapta a mi perfil y el de mi empresa. Estoy contento y agradecido con su trabajo. Recomendaciones al 100%.'
     },
     2: {
         id: 2,
-        imagen: 'https://www.mercotab.mx/front/img/Avatar-3.png',
-        nombre: 'Testimonio 2',
-        empresa: 'Testimonios 2',
-        testimonio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident tempore quis voluptatum aut saepe laborum aperiam, perferendis ipsa autem ipsum mollitia eligendi neque ducimus accusantium dolorem id eos tempora fuga 2.'
+        imagen: '../img/testimonios/goals-up.jpg',
+        nombre: 'Golas Up',
+        empresa: '',
+        testimonio: 'En Goals Up hemos trabajado con la empresa Cordero web en cuanto a la creación y desarrollo de dos páginas web. Ha sido un experiencia muy exitosa en cuanto a la calidad del servicio, respuesta inmediata y cumplimiento de tiempos. Contar con el apoyo de Cordero Web en nuestra empresa ha sido contar con todo un equipo de profesionales.'
     },
     3: {
         id: 3,
-        imagen: 'https://www.winhelponline.com/blog/wp-content/uploads/2017/12/user.png',
-        nombre: 'Testimonio 3',
-        empresa: 'Testimonios 3',
-        testimonio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident tempore quis voluptatum aut saepe laborum aperiam, perferendis ipsa autem ipsum mollitia eligendi neque ducimus accusantium dolorem id eos tempora fuga 3.'
+        imagen: '../img/testimonios/maskopets.jpg',
+        nombre: 'Maskopets',
+        empresa: '',
+        testimonio: 'En Veterinaria maskopets recomendamos ampliamente a la empresa cordero web, son responsables del manejo y diseño de nuestras redes sociales en facebook e instagram. Contar con el apoyo de cordero web ha sido de gran ayuda para potenciar y mantener la presencia online de nuestra veterinaria. Agradecemos su responsabilidad y el estar siempre atentos. Estamos felices de haberlos elegido.'
     },
     4: {
         id: 4,
-        imagen: 'https://www.metronethn.com/wp-content/uploads/2016/02/4_avatar-512.png',
-        nombre: 'Testimonio 4',
-        empresa: 'Testimonios 4',
-        testimonio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident tempore quis voluptatum aut saepe laborum aperiam, perferendis ipsa autem ipsum mollitia eligendi neque ducimus accusantium dolorem id eos tempora fuga 4.'
+        imagen: '../img/testimonios/dargys-moreira.jpg',
+        nombre: 'Dargys Moreira',
+        empresa: 'Gerente Grupo Moreira',
+        testimonio: 'Espectacular mi logo!. Un sello que representa un esfuerzo familiar que trasciende generaciones. Una empresa de tradición. Gracias por darle imagen a un esfuerzo de años.'
+    },
+    5: {
+        id: 5,
+        imagen: '../img/testimonios/mariachi-tequila-show.jpg',
+        nombre: 'Mariachi Tequila Show',
+        empresa: '',
+        testimonio: 'Gracias a Cordero Web por habernos creado la página web y nuestro logo. Lo mejor de lo mejor para su negocio.'
+    }
+    ,
+    6: {
+        id: 6,
+        imagen: '../img/testimonios/maria-rondon.jpg',
+        nombre: 'María Rondón',
+        empresa: 'Diseñadora',
+        testimonio: 'Supieron escucharme y entenderme desde el primer momento. Siempre están allí para ayudarte. Quedé super complacida con el trabajo. Supieron traducir mis ideas y llevar a cabo mi sitio web. Los recomiendo 100%.'
     }
 },
 
@@ -257,7 +275,15 @@ mostrarLightBox();
 
 if (window.matchMedia('(max-width: 768px)').matches) {
     left.addEventListener('click', function() {
-        if (i == 4) {
+        if (i == 6) {
+            testimoniosSlider.style.transform = `translateX(${-400}%)`;
+            i=5;
+        }
+        else if (i == 5) {
+            testimoniosSlider.style.transform = `translateX(${-300}%)`;
+            i=4;
+        }
+        else if (i == 4) {
             testimoniosSlider.style.transform = `translateX(${-200}%)`;
             i=3;
         }
@@ -279,7 +305,15 @@ if (window.matchMedia('(max-width: 768px)').matches) {
     });
 } else {
     left.addEventListener('click', function() {
-        if (i == 3) {
+        if (i == 5) {
+            testimoniosSlider.style.transform = `translateX(${-150}%)`;
+            i=4;
+        }
+        else if (i == 4) {
+            testimoniosSlider.style.transform = `translateX(${-100}%)`;
+            i=3;
+        }
+        else if (i == 3) {
             testimoniosSlider.style.transform = `translateX(${-50}%)`;
             i=2;
         }
